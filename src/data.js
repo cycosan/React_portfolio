@@ -1,36 +1,42 @@
-import Image from "./image.jpg"
+// import Image from "./image.jpg"
+import Crm from "./crm.jpg"
+import Todo from "./todo.jpg"
+import Chat from "./chat.jpg"
+import Portfolio from "./image2.jpg"
+import Test from "./bibek.jpg"
+import Test1 from "./ram.png"
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Python Django",
+      subtitle: "Customer Resource Management",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: Image,
-      link: "https://reactbootcamp.com",
+        "A crm app which is made in django .It has basic features required for an customer for its resources management",
+      image: Crm,
+      link: "https://cycosan-crm1.herokuapp.com/",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "React",
+      subtitle: "React Portfolio App",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: Image,
-      link: "https://reedbarger.com",
+        "Portfolio app containing all my information like basic information, skills ,my projects ,my experience and many more.",
+      image: Portfolio,
+      link: "/",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Django , Channels and Redis",
+      subtitle: "Chat App",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: Image,
-      link: "https://jsbootcamp.com",
+        "This app is basically for chatting using simple UI and redis so that user can chat in real time send message and recive message",
+      image: Chat,
+      link: "/",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "React Python",
+      subtitle: "Todo App",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: Image,
-      link: "https://pythonbootcamp.com",
+        "Todo App to add delete update todolist so that user can stay focused on what tasked are left and can plan thier day accordinly",
+      image: Todo,
+      link: "/",
     },
   ];
 
@@ -42,16 +48,16 @@ export const projects = [
   
   export const testimonials = [
     {
-      "quote":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      "image":Image,
+      "quote":"Very Hard Working and Intelligence student.Beside Education he was also very fond of sports and music.He actively participated in all events",
+      "image":Test1,
       "name":"Bishal Tamang",
       "company":"Kantipur Engineering College"
     },
     {
-      "quote":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      "image":Image,
-      "name":"Bishal Tamang",
-      "company":"Kantipur Engineering College"
+      "quote":"Versatile Personality and very Displined employee.He always helped junior and perfom hard task in time also was very intersting and funny ",
+      "image":Test,
+      "name":"Ram Yadav",
+      "company":"F1 Soft Company"
     }
    ];
 
@@ -59,9 +65,9 @@ export const projects = [
     {
       "from_date":2020,
       "to_date":"present",
-      "title":"Python Engineer & Scrapping Engineer",
+      "title":"Python & Scrapping Engineer/ Research Engineer",
       "university_name":"Dhuni Software",
-      "grade":"2+ projects",
+      "grade":"5+ projects",
       "location":"Matidevi",
       "is_education":false
   
